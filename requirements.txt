@@ -1,0 +1,7 @@
+# Core CausalKGGuard is dependency-free and uses only the Python standard library.
+#
+# For public AgentDojo benchmark runs on a remote evaluation machine, install:
+#   pip install -e ".[agentdojo]"
+#
+# For the local synthetic, ablation, explanation, statistical, and runtime
+# evaluations, no third-party packages are required.

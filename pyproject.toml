@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "causalkgguard"
+version = "0.1.0"
+description = "Causal knowledge-graph runtime guard for LLM-agent security research."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Phat T. Tran-Truong" }
+]
+keywords = [
+  "llm-agents",
+  "prompt-injection",
+  "knowledge-graphs",
+  "causal-reasoning",
+  "security"
+]
+dependencies = []
+
+[project.optional-dependencies]
+agentdojo = ["agentdojo"]
+dev = []
+
+[tool.setuptools.packages.find]
+include = ["causalkgguard*"]
